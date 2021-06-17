@@ -15,11 +15,7 @@ $ npm install
 
 ## Configurar .env
 
-Abra o arquivo .env adicione os dados para o acesso ao banco
-
-```shell
-.env
-```
+Renomeie o arquivo .env.example para .env adicione os dados para o acesso ao banco
 
 ## Gerar key
 
