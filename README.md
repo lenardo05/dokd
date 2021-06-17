@@ -10,6 +10,7 @@ $ git clone https://github.com/lenardo05/dokd.git
 
 ```shell
 $ composer install
+$ npm install
 ```
 
 ## Configurar .env
@@ -18,6 +19,14 @@ Abra o arquivo .env adicione os dados para o acesso ao banco
 
 ```shell
 .env
+```
+
+## Gerar key
+
+Definir uma nova chave no seu arquivo .env
+
+```shell
+$ php artisan key:generate
 ```
 
 ## Tabelas e Seeders
